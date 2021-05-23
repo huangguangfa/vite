@@ -1,0 +1,26 @@
+{
+  "name": "vite",
+  "version": "1.0.0",
+  "description": "vite 练习",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huanggungfa/vite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huanggungfa/vite/issues"
+  },
+  "homepage": "https://github.com/huanggungfa/vite#readme",
+  "dependencies": {
+    "less": "^4.1.1",
+    "vite": "^2.3.3"
+  }
+}

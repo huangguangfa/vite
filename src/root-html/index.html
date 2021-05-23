@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>root-vite 练习</title>
+</head>
+<body>
+    <div class="vite">
+        root-vite练习 
+    </div>
+    <!-- vite_less-test -->
+    <div class="vite_less">
+        <span class="vite_less_child">less——test</span>
+    </div>
+
+    <!-- 静态资源 -->
+    <img class="vite_img">
+</body>
+</html>
+
+<script type="module" src="../index.js"></script>
+
+<!-- Vite 通过 postcss-import 预配置支持了 CSS @import 内联 -->
+<style>
+    @import url('../style/index.css');
+    @import url('../style/less/index.less');
+</style>
