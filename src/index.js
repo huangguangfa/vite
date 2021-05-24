@@ -1,5 +1,6 @@
 let vite = 'hello vite';
-
+import './style/index.css';
+import './style/less/index.less'
 //css.module -test
 import './css.module';
 //静态资源test
