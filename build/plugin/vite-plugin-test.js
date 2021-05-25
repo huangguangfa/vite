@@ -18,9 +18,16 @@ export default function test(){
         closeBundle( file, id, aa ){
             console.log('closeBundle',file, id, aa)
         },
-        //run build can 
+        //run build can
         config( config,serve ){
-            console.log('config',config,serve)
+            // console.log('config',config,serve)
+        },
+        //
+        configResolved( resolvedConfig ){
+            // console.log('resolvedConfig',resolvedConfig)
+        },
+        transformIndexHtml( html ){
+            // console.log('transformIndexHtml',html)
         }
     }
 }
