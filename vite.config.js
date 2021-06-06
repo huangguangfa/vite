@@ -1,5 +1,5 @@
 const {resolve} = require('path')
-import test from "./build/plugin/vite-plugin-test"
+import copyVitePlugin from "./build/plugin/vite-plugin-copyVitePlugin.js"
 export default {
     // 项目根目录（index.html 文件所在的位置）
     root:'./',
@@ -8,7 +8,7 @@ export default {
     // 'development' (开发模式)，'production' (生产模式)
     mode:'development',
     plugins:[
-        test()
+        copyVitePlugin()
     ],
     resolve:{
         //别名
@@ -35,7 +35,7 @@ export default {
         port:6888,
         strictPort:true,
         https:false,
-        // open:"/index.html",
+        // open:"index.html",
         proxy:{},
         cors:true,
     },

@@ -6,8 +6,12 @@ import './css.module';
 //静态资源test
 import './js/assetas.js';
 // import './style/index.css'
-
 import json from "./vite-json/index.json";
+
+import test from "test-module"
+
+console.log('test',test)
+
 
 let json_name = json.name;
 

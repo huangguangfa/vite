@@ -2,9 +2,9 @@
   "name": "vite",
   "version": "1.0.0",
   "description": "vite 练习",
-  "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "start": "vite --host",
+    "start": "vite",
     "build": "vite build",
     "serve": "vite preview"
   },
@@ -14,7 +14,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/huanggungfa/vite/issues"
   },
