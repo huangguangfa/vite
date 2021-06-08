@@ -8,7 +8,10 @@ export default {
     // 'development' (开发模式)，'production' (生产模式)
     mode:'development',
     plugins:[
-        copyVitePlugin()
+        copyVitePlugin({
+            from:'/src/public/',
+            to:'public'
+        })
     ],
     resolve:{
         //别名
