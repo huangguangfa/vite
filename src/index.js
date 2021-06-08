@@ -7,12 +7,6 @@ import './css.module';
 import './js/assetas.js';
 // import './style/index.css'
 import json from "./vite-json/index.json";
-
-import test from "test-module"
-
-console.log('test',test)
-
-
 let json_name = json.name;
 
 console.log(json_name)

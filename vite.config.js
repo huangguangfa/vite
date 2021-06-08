@@ -1,5 +1,5 @@
 const {resolve} = require('path')
-import copyVitePlugin from "./build/plugin/vite-plugin-copyVitePlugin.js"
+import copyVitePlugin from "./build/plugin/copyVitePlugin/vite-plugin-copyVitePlugin.js"
 export default {
     // 项目根目录（index.html 文件所在的位置）
     root:'./',
@@ -20,7 +20,7 @@ export default {
         // preprocessorOptions:{
         //     less:{
         //         modifyVars:{},
-        //         javascriptEnabled: true
+        //         javascriptEnabled: trueq
         //     }
         // }
     },
